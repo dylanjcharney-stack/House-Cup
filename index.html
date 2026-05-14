@@ -1246,7 +1246,7 @@
         ? "more to take the lead"
         : rankData.isTied
           ? "tied for the lead"
-          : "ahead of second place";
+          : "of second place";
       const rankLabel = rankData.isTied ? `Tied ${ordinalRank(rankData.rank)}` : ordinalRank(rankData.rank);
       const tieDetail = rankData.isTied
         ? `<p>Tied with ${rankData.tiedHouses.map((house) => house.name).join(", ")}</p>`
